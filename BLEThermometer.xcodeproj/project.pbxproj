@@ -15,6 +15,25 @@
 		481BC4671C12908300151BA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481BC4661C12908300151BA4 /* Images.xcassets */; };
 		481BC46A1C12908300151BA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481BC4681C12908300151BA4 /* LaunchScreen.xib */; };
 		481BC4761C12908300151BA4 /* BLEThermometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 481BC4751C12908300151BA4 /* BLEThermometerTests.m */; };
+		481BC4831C12910500151BA4 /* LeDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 481BC4801C12910500151BA4 /* LeDiscovery.m */; };
+		481BC4841C12910500151BA4 /* LeTemperatureAlarmService.m in Sources */ = {isa = PBXBuildFile; fileRef = 481BC4821C12910500151BA4 /* LeTemperatureAlarmService.m */; };
+		481BC4891C12941900151BA4 /* KSTempData.m in Sources */ = {isa = PBXBuildFile; fileRef = 481BC4881C12941900151BA4 /* KSTempData.m */; };
+		481BC48B1C12A08000151BA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BC48A1C12A08000151BA4 /* CoreGraphics.framework */; };
+		481BC48D1C12A08900151BA4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BC48C1C12A08900151BA4 /* CoreBluetooth.framework */; };
+		481BC48F1C12A09300151BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BC48E1C12A09300151BA4 /* Foundation.framework */; };
+		481BC4911C12A0A700151BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BC4901C12A0A700151BA4 /* UIKit.framework */; };
+		481BC4951C12E8FA00151BA4 /* KSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481BC4941C12E8FA00151BA4 /* KSNavigationController.m */; };
+		481BC4981C12F97200151BA4 /* KSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481BC4971C12F97200151BA4 /* KSDetailController.m */; };
+		4857BF8B1C1D961E00DB950C /* KSEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857BF8A1C1D961E00DB950C /* KSEditController.m */; };
+		486CB3801C156F5B009F36C2 /* TempDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 486CB37F1C156F5B009F36C2 /* TempDataEntity.m */; };
+		487D04E11C15525D009B6DA8 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D04DA1C15525D009B6DA8 /* UUChart.m */; };
+		487D04E21C15525D009B6DA8 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D04DC1C15525D009B6DA8 /* UUChartLabel.m */; };
+		487D04E31C15525D009B6DA8 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D04DE1C15525D009B6DA8 /* UUColor.m */; };
+		487D04E41C15525D009B6DA8 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D04E01C15525D009B6DA8 /* UULineChart.m */; };
+		487D04E91C15527E009B6DA8 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D04E61C15527E009B6DA8 /* UUBar.m */; };
+		487D04EA1C15527E009B6DA8 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D04E81C15527E009B6DA8 /* UUBarChart.m */; };
+		487D04ED1C156D0F009B6DA8 /* tempData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 487D04EB1C156D0F009B6DA8 /* tempData.xcdatamodeld */; };
+		48DD492E1C17F4500040A355 /* KSSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DD492D1C17F4500040A355 /* KSSettingsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +61,39 @@
 		481BC46F1C12908300151BA4 /* BLEThermometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEThermometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		481BC4741C12908300151BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		481BC4751C12908300151BA4 /* BLEThermometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEThermometerTests.m; sourceTree = "<group>"; };
+		481BC47F1C12910500151BA4 /* LeDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeDiscovery.h; sourceTree = "<group>"; };
+		481BC4801C12910500151BA4 /* LeDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeDiscovery.m; sourceTree = "<group>"; };
+		481BC4811C12910500151BA4 /* LeTemperatureAlarmService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeTemperatureAlarmService.h; sourceTree = "<group>"; };
+		481BC4821C12910500151BA4 /* LeTemperatureAlarmService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeTemperatureAlarmService.m; sourceTree = "<group>"; };
+		481BC4871C12941900151BA4 /* KSTempData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTempData.h; sourceTree = "<group>"; };
+		481BC4881C12941900151BA4 /* KSTempData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTempData.m; sourceTree = "<group>"; };
+		481BC48A1C12A08000151BA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		481BC48C1C12A08900151BA4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		481BC48E1C12A09300151BA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		481BC4901C12A0A700151BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		481BC4931C12E8FA00151BA4 /* KSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSNavigationController.h; path = BLEThermometer.xcodeproj/../KSNavigationController.h; sourceTree = SOURCE_ROOT; };
+		481BC4941C12E8FA00151BA4 /* KSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSNavigationController.m; path = BLEThermometer.xcodeproj/../KSNavigationController.m; sourceTree = SOURCE_ROOT; };
+		481BC4961C12F97200151BA4 /* KSDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDetailController.h; sourceTree = "<group>"; };
+		481BC4971C12F97200151BA4 /* KSDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDetailController.m; sourceTree = "<group>"; };
+		4857BF891C1D961E00DB950C /* KSEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSEditController.h; path = BLEThermometer.xcodeproj/../KSEditController.h; sourceTree = SOURCE_ROOT; };
+		4857BF8A1C1D961E00DB950C /* KSEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSEditController.m; path = BLEThermometer.xcodeproj/../KSEditController.m; sourceTree = SOURCE_ROOT; };
+		486CB37E1C156F5B009F36C2 /* TempDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TempDataEntity.h; path = BLEThermometer.xcodeproj/../TempDataEntity.h; sourceTree = SOURCE_ROOT; };
+		486CB37F1C156F5B009F36C2 /* TempDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TempDataEntity.m; path = BLEThermometer.xcodeproj/../TempDataEntity.m; sourceTree = SOURCE_ROOT; };
+		487D04D91C15525D009B6DA8 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChart.h; sourceTree = "<group>"; };
+		487D04DA1C15525D009B6DA8 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChart.m; sourceTree = "<group>"; };
+		487D04DB1C15525D009B6DA8 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartLabel.h; sourceTree = "<group>"; };
+		487D04DC1C15525D009B6DA8 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
+		487D04DD1C15525D009B6DA8 /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUColor.h; sourceTree = "<group>"; };
+		487D04DE1C15525D009B6DA8 /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUColor.m; sourceTree = "<group>"; };
+		487D04DF1C15525D009B6DA8 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
+		487D04E01C15525D009B6DA8 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
+		487D04E51C15527E009B6DA8 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBar.h; sourceTree = "<group>"; };
+		487D04E61C15527E009B6DA8 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBar.m; sourceTree = "<group>"; };
+		487D04E71C15527E009B6DA8 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBarChart.h; sourceTree = "<group>"; };
+		487D04E81C15527E009B6DA8 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBarChart.m; sourceTree = "<group>"; };
+		487D04EC1C156D0F009B6DA8 /* tempData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tempData.xcdatamodel; sourceTree = "<group>"; };
+		48DD492C1C17F4500040A355 /* KSSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSSettingsController.h; sourceTree = "<group>"; };
+		48DD492D1C17F4500040A355 /* KSSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSSettingsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481BC4911C12A0A700151BA4 /* UIKit.framework in Frameworks */,
+				481BC48F1C12A09300151BA4 /* Foundation.framework in Frameworks */,
+				481BC48D1C12A08900151BA4 /* CoreBluetooth.framework in Frameworks */,
+				481BC48B1C12A08000151BA4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +123,7 @@
 			children = (
 				481BC4551C12908200151BA4 /* BLEThermometer */,
 				481BC4721C12908300151BA4 /* BLEThermometerTests */,
+				481BC4921C12A0B600151BA4 /* Frameworks */,
 				481BC4541C12908200151BA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,10 +140,12 @@
 		481BC4551C12908200151BA4 /* BLEThermometer */ = {
 			isa = PBXGroup;
 			children = (
+				48DD492B1C17F4450040A355 /* Controllers */,
+				487D04D81C155237009B6DA8 /* Chart */,
+				481BC4861C12940300151BA4 /* Models */,
+				481BC4851C12911600151BA4 /* BLE */,
 				481BC45A1C12908200151BA4 /* AppDelegate.h */,
 				481BC45B1C12908200151BA4 /* AppDelegate.m */,
-				481BC4601C12908200151BA4 /* ViewController.h */,
-				481BC4611C12908200151BA4 /* ViewController.m */,
 				481BC4631C12908300151BA4 /* Main.storyboard */,
 				481BC4661C12908300151BA4 /* Images.xcassets */,
 				481BC4681C12908300151BA4 /* LaunchScreen.xib */,
@@ -120,6 +179,76 @@
 				481BC4741C12908300151BA4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		481BC4851C12911600151BA4 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				481BC47F1C12910500151BA4 /* LeDiscovery.h */,
+				481BC4801C12910500151BA4 /* LeDiscovery.m */,
+				481BC4811C12910500151BA4 /* LeTemperatureAlarmService.h */,
+				481BC4821C12910500151BA4 /* LeTemperatureAlarmService.m */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
+		481BC4861C12940300151BA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				486CB37E1C156F5B009F36C2 /* TempDataEntity.h */,
+				486CB37F1C156F5B009F36C2 /* TempDataEntity.m */,
+				481BC4871C12941900151BA4 /* KSTempData.h */,
+				487D04EB1C156D0F009B6DA8 /* tempData.xcdatamodeld */,
+				481BC4881C12941900151BA4 /* KSTempData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		481BC4921C12A0B600151BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				481BC4901C12A0A700151BA4 /* UIKit.framework */,
+				481BC48E1C12A09300151BA4 /* Foundation.framework */,
+				481BC48C1C12A08900151BA4 /* CoreBluetooth.framework */,
+				481BC48A1C12A08000151BA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		487D04D81C155237009B6DA8 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				487D04E51C15527E009B6DA8 /* UUBar.h */,
+				487D04E61C15527E009B6DA8 /* UUBar.m */,
+				487D04E71C15527E009B6DA8 /* UUBarChart.h */,
+				487D04E81C15527E009B6DA8 /* UUBarChart.m */,
+				487D04D91C15525D009B6DA8 /* UUChart.h */,
+				487D04DA1C15525D009B6DA8 /* UUChart.m */,
+				487D04DB1C15525D009B6DA8 /* UUChartLabel.h */,
+				487D04DC1C15525D009B6DA8 /* UUChartLabel.m */,
+				487D04DD1C15525D009B6DA8 /* UUColor.h */,
+				487D04DE1C15525D009B6DA8 /* UUColor.m */,
+				487D04DF1C15525D009B6DA8 /* UULineChart.h */,
+				487D04E01C15525D009B6DA8 /* UULineChart.m */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		48DD492B1C17F4450040A355 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4857BF891C1D961E00DB950C /* KSEditController.h */,
+				4857BF8A1C1D961E00DB950C /* KSEditController.m */,
+				481BC4961C12F97200151BA4 /* KSDetailController.h */,
+				481BC4971C12F97200151BA4 /* KSDetailController.m */,
+				481BC4931C12E8FA00151BA4 /* KSNavigationController.h */,
+				481BC4941C12E8FA00151BA4 /* KSNavigationController.m */,
+				481BC4601C12908200151BA4 /* ViewController.h */,
+				481BC4611C12908200151BA4 /* ViewController.m */,
+				48DD492C1C17F4500040A355 /* KSSettingsController.h */,
+				48DD492D1C17F4500040A355 /* KSSettingsController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +351,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481BC4891C12941900151BA4 /* KSTempData.m in Sources */,
 				481BC45C1C12908200151BA4 /* AppDelegate.m in Sources */,
+				487D04E21C15525D009B6DA8 /* UUChartLabel.m in Sources */,
+				487D04E91C15527E009B6DA8 /* UUBar.m in Sources */,
+				481BC4981C12F97200151BA4 /* KSDetailController.m in Sources */,
+				481BC4831C12910500151BA4 /* LeDiscovery.m in Sources */,
+				487D04E31C15525D009B6DA8 /* UUColor.m in Sources */,
 				481BC45F1C12908200151BA4 /* BLEThermometer.xcdatamodeld in Sources */,
+				4857BF8B1C1D961E00DB950C /* KSEditController.m in Sources */,
+				487D04EA1C15527E009B6DA8 /* UUBarChart.m in Sources */,
+				481BC4841C12910500151BA4 /* LeTemperatureAlarmService.m in Sources */,
+				487D04E11C15525D009B6DA8 /* UUChart.m in Sources */,
+				487D04E41C15525D009B6DA8 /* UULineChart.m in Sources */,
+				48DD492E1C17F4500040A355 /* KSSettingsController.m in Sources */,
+				481BC4951C12E8FA00151BA4 /* KSNavigationController.m in Sources */,
+				487D04ED1C156D0F009B6DA8 /* tempData.xcdatamodeld in Sources */,
 				481BC4621C12908200151BA4 /* ViewController.m in Sources */,
+				486CB3801C156F5B009F36C2 /* TempDataEntity.m in Sources */,
 				481BC4591C12908200151BA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +495,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = BLEThermometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,7 +507,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = BLEThermometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +568,7 @@
 				481BC47B1C12908300151BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		481BC47C1C12908300151BA4 /* Build configuration list for PBXNativeTarget "BLEThermometerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +577,7 @@
 				481BC47E1C12908300151BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -439,6 +589,16 @@
 			);
 			currentVersion = 481BC45E1C12908200151BA4 /* BLEThermometer.xcdatamodel */;
 			path = BLEThermometer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		487D04EB1C156D0F009B6DA8 /* tempData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				487D04EC1C156D0F009B6DA8 /* tempData.xcdatamodel */,
+			);
+			currentVersion = 487D04EC1C156D0F009B6DA8 /* tempData.xcdatamodel */;
+			path = tempData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
